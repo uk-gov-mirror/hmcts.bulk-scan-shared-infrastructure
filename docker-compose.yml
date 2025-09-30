@@ -112,7 +112,7 @@ services:
         - 4552:8080
 
     shared-database-v10:
-      image: postgres:10.5-alpine
+      image: postgres:18.0-alpine
       command: postgres -c 'max_connections=250'
       volumes:
         - ./docker/database/init-db-v10.sh:/docker-entrypoint-initdb.d/init-db.sh

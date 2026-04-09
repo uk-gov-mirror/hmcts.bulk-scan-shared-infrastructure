@@ -1,6 +1,6 @@
 # bulk-scan-shared-infrastructure
 
-This module sets up the shared infrastructure for Bulk Scanning. It also provides the ability to run CCD locally in docker containers.
+This module sets up the shared infrastructure for Bulk Scanning. It also provides the ability to run CCD locally in docker containers..
 
 ## Variables
 

@@ -9,7 +9,7 @@ module "vault" {
   product_group_object_id    = "70de400b-4f47-4f25-a4f0-45e1ee4e4ae3"
   common_tags                = var.common_tags
   create_managed_identity    = true
-  managed_identity_object_id = data.azurerm_user_assigned_identity.jenkins.principal_id
+  jenkins_object_id          = data.azurerm_user_assigned_identity.jenkins.principal_id
 }
 
 output "vaultName" {
